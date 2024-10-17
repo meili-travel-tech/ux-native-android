@@ -4,5 +4,5 @@ jdk:
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
-  - FILE="-Dfile=com-atifqamar-customtoast.aar"
+  - FILE="-Dfile=app-release.aar"
   - mvn install:install-file $FILE -DgroupId=cio.github.meili-travel-tech -DartifactId=ux-native-android -Dversion=1.0.1 -Dpackaging=aar -DgeneratePom=true
