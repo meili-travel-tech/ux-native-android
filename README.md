@@ -2,7 +2,7 @@
 
 Public distribution channel for the **Meili Android SDK** (`meili.travel:ux-native-android-sdk`).
 
-The compiled `.aar` is served from this repository as a Maven repository over **GitHub Pages**, so **no credentials are required** to consume it. The SDK source lives in a private repository and is not part of this distribution.
+The compiled `.aar` is served from this repository as a Maven repository over **GitHub Pages**.
 
 ## Installation
 
