@@ -1,6 +1,6 @@
-# MeiliCar Android SDK — public distribution
+# MeiliCarSDK for Android
 
-Public distribution channel for the **MeiliCar Android SDK** (`com.meili.travel:meili-car-sdk`).
+Public distribution channel for **MeiliCarSDK** (`com.meili.travel:meili-car-sdk`).
 
 The compiled `.aar` is served from this repository as a Maven repository over **GitHub Pages**.
 
@@ -30,8 +30,8 @@ Replace `VERSION` with the latest from [Releases](https://github.com/meili-trave
 
 ## Previous coordinates
 
-`meili.travel:ux-native-android-sdk` remains published and frozen at its last version — pin it to
-roll back. New releases ship only under the `com.meili.travel:meili-car-sdk` coordinates above.
+`meili.travel:ux-native-android-sdk` stays published and frozen at `1.10.1`, pin it to roll back.
+New releases ship only under the `com.meili.travel:meili-car-sdk` coordinates above.
 
 ## Requirements
 
