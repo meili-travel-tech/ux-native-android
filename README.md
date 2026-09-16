@@ -1,6 +1,6 @@
-# Meili Android SDK — public distribution
+# MeiliCarSDK for Android
 
-Public distribution channel for the **Meili Android SDK** (`meili.travel:ux-native-android-sdk`).
+Public distribution channel for **MeiliCarSDK** (`com.meili.travel:meili-car-sdk`).
 
 The compiled `.aar` is served from this repository as a Maven repository over **GitHub Pages**.
 
@@ -22,15 +22,20 @@ Add the dependency in your app module's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("meili.travel:ux-native-android-sdk:VERSION")
+    implementation("com.meili.travel:meili-car-sdk:VERSION")
 }
 ```
 
 Replace `VERSION` with the latest from [Releases](https://github.com/meili-travel-tech/ux-native-android/releases).
 
+## Previous coordinates
+
+`meili.travel:ux-native-android-sdk` stays published and frozen at `1.10.1`, pin it to roll back.
+New releases ship only under the `com.meili.travel:meili-car-sdk` coordinates above.
+
 ## Requirements
 
-- `minSdkVersion` 27 or higher
+- `minSdkVersion` 24 or higher
 - Jetpack Compose
 
 ## How this repository is maintained
